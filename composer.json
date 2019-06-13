@@ -1,0 +1,21 @@
+{
+    "name": "aligieri/flip-task",
+    "type": "project",
+    "require": {
+        "php" : "^7.2",
+        "ext-SimpleXML": "^7.2",
+        "symfony/console": "^5.0@dev"
+    },
+    "autoload" : {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zhanbolat",
+            "email": "zhanbolat.nurutdin@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}
